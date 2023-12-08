@@ -1,5 +1,8 @@
 require('dotenv').config()
 const { createLogger, format, transports } = require("winston");
+const { Logtail } = require('@logtail/node');
+const { LogtailTransport } = require('@logtail/winston');
+const logtail = new Logtail('pJwik5dcnAC4Ket9dK8ZAoi8');
 require('winston-mongodb')
 const logger = createLogger({
     transports: [
@@ -19,7 +22,8 @@ const logger = createLogger({
             db: process.env.MONGO_URI,
             collection: 'logs'
 
-        })
+        }),
+        new LogtailTransport(logtail)
     ],
     format:  format.combine(
         format.timestamp(),

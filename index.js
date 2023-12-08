@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const expressWinston = require('express-winston')
 const { transports, format } = require('winston')
-
 const logger = require('./logger')
 app.use(expressWinston.logger({
     winstonInstance: logger,
