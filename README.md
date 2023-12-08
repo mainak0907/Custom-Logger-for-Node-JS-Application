@@ -1,7 +1,9 @@
 # Custom-Logger-for-Node-JS-Application
 Large-scale organizations make use of loggers to keep track of the logs and analyze them.
 
-Winston logger for custom logging in Node JS, which records the logs, pushes it to MongoDB, where Filtering and Visualization can be applied
+Winston logger for custom logging in Node JS, which records the logs, and pushes it to MongoDB, where Filtering and Visualization can be applied
+
+This logger code can be added to any project to make the development and debugging process efficient 
 
 ## Why do we need a separate logger on top of console.log() in Node JS?
 
