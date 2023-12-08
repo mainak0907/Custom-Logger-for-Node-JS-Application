@@ -1,0 +1,23 @@
+{
+  "name": "custom-logger-for-node-js-application",
+  "version": "1.0.0",
+  "description": "Winston logger for custom logging in Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.2",
+    "winston": "^3.11.0",
+    "winston-mongodb": "^5.1.1"
+  }
+}

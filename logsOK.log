@@ -1,0 +1,149 @@
+{
+  level: 'info',
+  message: 'This is an info log',
+  metadata: { timestamp: '2023-12-08T16:03:52.744Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          'user-agent': 'vscode-restclient',
+          'accept-encoding': 'gzip, deflate',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 6
+    },
+    timestamp: '2023-12-08T16:03:52.752Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2023-12-08T16:03:54.386Z' }
+}
+{
+  level: 'warn',
+  message: 'HTTP GET /400',
+  metadata: {
+    meta: {
+      req: {
+        url: '/400',
+        headers: {
+          'user-agent': 'vscode-restclient',
+          'accept-encoding': 'gzip, deflate',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/400',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 1
+    },
+    timestamp: '2023-12-08T16:03:54.388Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /500',
+  metadata: {
+    meta: {
+      req: {
+        url: '/500',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,bn;q=0.8,hi;q=0.7'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/500',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 2
+    },
+    timestamp: '2023-12-08T16:03:55.716Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  metadata: {
+    meta: {
+      req: {
+        url: '/favicon.ico',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+          'sec-fetch-site': 'same-origin',
+          'sec-fetch-mode': 'no-cors',
+          'sec-fetch-dest': 'image',
+          referer: 'http://localhost:4000/500',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,bn;q=0.8,hi;q=0.7'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/favicon.ico',
+        query: {}
+      },
+      res: { statusCode: 404 },
+      responseTime: 3
+    },
+    timestamp: '2023-12-08T16:03:55.812Z'
+  }
+}
+{
+  level: 'error',
+  message: 'HTTP GET /error',
+  metadata: {
+    meta: {
+      req: {
+        url: '/error',
+        headers: {
+          'user-agent': 'vscode-restclient',
+          'accept-encoding': 'gzip, deflate',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/error',
+        query: {}
+      },
+      res: { statusCode: 500 },
+      responseTime: 3
+    },
+    timestamp: '2023-12-08T16:04:00.717Z'
+  }
+}
